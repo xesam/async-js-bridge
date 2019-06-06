@@ -1,0 +1,25 @@
+{
+  "name": "js-bridge",
+  "version": "0.0.1",
+  "description": "web-native bridge",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:xesam/js-bridge.js.git"
+  },
+  "keywords": [
+    "js bridge"
+  ],
+  "author": "xesam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com:xesam/js-bridge.js/issues"
+  },
+  "homepage": "https://github.com:xesam/js-bridge.js#readme"
+}
