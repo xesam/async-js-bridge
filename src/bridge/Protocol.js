@@ -1,4 +1,8 @@
-const VERSION = "0.0.1";
+const SCHEME = '__js_bridge__';
+const CALLBASK = '__callback__';
+const VERSION = '__version__';
+const VERSION_VALUE = "0.0.1";
+
 const NATIVE = {
     BRIDGE_NAME: "_NATIVE_BRIDGE",
 
@@ -35,6 +39,10 @@ const WEB = {
     LISTENER_NAME: NATIVE.LISTENER_NAME
 };
 
+exports.SCHEME = SCHEME;
+exports.CALLBASK = CALLBASK;
 exports.VERSION = VERSION;
+exports.VERSION_VALUE = VERSION_VALUE;
+
 exports.NATIVE = NATIVE;
 exports.WEB = WEB;

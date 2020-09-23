@@ -1,7 +1,7 @@
 {
   "name": "js-bridge",
   "version": "0.0.1",
-  "description": "web-native bridge",
+  "description": "android js bridge",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,9 +9,12 @@
   "scripts": {
     "test": "test"
   },
+  "devDependencies": {
+    "jest": "26.4.2"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:xesam/js-bridge.js.git"
+    "url": "git+https://github.com:xesam/async-js-bridge.git"
   },
   "keywords": [
     "js bridge"
@@ -19,7 +22,7 @@
   "author": "xesam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com:xesam/js-bridge.js/issues"
+    "url": "https://github.com:xesam/async-js-bridge/issues"
   },
-  "homepage": "https://github.com:xesam/js-bridge.js#readme"
+  "homepage": "https://github.com:xesam/async-js-bridge#readme"
 }
